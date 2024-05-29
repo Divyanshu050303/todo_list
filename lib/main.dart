@@ -21,12 +21,12 @@ void main() async {
   // if (kIsWeb) {
   app = await Firebase.initializeApp(
       options: const FirebaseOptions(
-          apiKey: "AIzaSyCUQQEr_dQQqg_nQz4PTRhnp1IFHP62UDY",
-          authDomain: "todo-list-787cd.firebaseapp.com",
-          projectId: "todo-list-787cd",
-          storageBucket: "todo-list-787cd.appspot.com",
-          messagingSenderId: "56500871529",
-          appId: "1:56500871529:web:bf6aaecba5a88e38349df8"));
+          apiKey: "",
+          authDomain: "",
+          projectId: "",
+          storageBucket: "",
+          messagingSenderId: "",
+          appId: ""));
   // } else {
   //   app = await Firebase.initializeApp(
   //       options: DefaultFirebaseOptions.currentPlatform);
